@@ -1,0 +1,6 @@
+[build]
+target = "aarch64-linux-android"
+
+[target.aarch64-linux-android]
+# Tuned for Exynos 9825 (SM-N975F) cores; runs fine on newer ARMv8.2+ phones
+rustflags = ["-C", "target-cpu=cortex-a75", "-C", "link-arg=-Wl,--gc-sections"]
