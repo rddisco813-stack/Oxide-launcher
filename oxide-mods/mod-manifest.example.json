@@ -1,0 +1,8 @@
+{
+  "id": "my_mod",
+  "name": "My Mod",
+  "version": "1.0.0",
+  "edition": "rust",
+  "capabilities": ["hud", "input"],
+  "entry": "libmy_mod.so"
+}

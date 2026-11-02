@@ -1,0 +1,11 @@
+{
+  "style": "sodium",
+  "tabs": [
+    {"name": "General", "options": ["render_distance", "simulation_distance", "fps_cap", "vsync", "gui_scale"]},
+    {"name": "Quality", "options": ["fancy_graphics", "smooth_lighting", "particles", "entity_distance", "resolution_scale"]},
+    {"name": "Performance", "options": ["mesh_threads", "upload_per_frame", "occlusion_culling", "greedy_meshing", "thermal_throttle"]},
+    {"name": "Shaders", "options": ["shader_pack", "bloom", "tonemap", "shader_quality"]},
+    {"name": "Mods", "options": ["list_with_toggles"]}
+  ],
+  "note": "Each option shows a short description and a 'needs restart' badge, like Sodium."
+}
