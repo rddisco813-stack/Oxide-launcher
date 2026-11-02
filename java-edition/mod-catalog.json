@@ -1,0 +1,16 @@
+{
+  "note": "Modrinth project slugs. Check each supports your game version + loader before installing.",
+  "recommended": [
+    {"slug": "sodium", "why": "FPS boost + new video settings GUI"},
+    {"slug": "sodium-extra", "why": "More video options"},
+    {"slug": "reeses-sodium-options", "why": "Sodium-style tabbed settings screen"},
+    {"slug": "iris", "why": "Shader support (needs Sodium)"},
+    {"slug": "appleskin", "why": "Hunger and saturation info"},
+    {"slug": "zoomify", "why": "Zoom"},
+    {"slug": "lithium", "why": "Server/game logic speedup"},
+    {"slug": "entityculling", "why": "Skip hidden entities, FPS boost"},
+    {"slug": "immediatelyfast", "why": "Faster HUD and text rendering"},
+    {"slug": "ferrite-core", "why": "Lower RAM use"},
+    {"slug": "modmenu", "why": "In-game mod list with on/off info"}
+  ]
+}
