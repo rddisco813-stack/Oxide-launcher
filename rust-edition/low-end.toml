@@ -1,0 +1,28 @@
+# Oxide Rust Edition: default settings for low-end phones (baseline: SM-N975F)
+[video]
+render_distance = 6
+simulation_distance = 5
+fps_cap = 45
+resolution_scale = 0.75      # render at 75%, upscale to screen
+vsync = false
+fancy_graphics = false
+smooth_lighting = false
+particles = "minimal"
+entity_distance = 0.6
+cull_hidden_faces = true     # skip faces between solid blocks
+frustum_culling = true
+occlusion_culling = true
+greedy_meshing = true        # merge faces, far fewer triangles
+
+[chunks]
+mesh_threads = 3             # leave big cores for render/input
+upload_per_frame = 2         # cap chunk uploads to avoid stutter
+unload_delay_s = 10
+
+[memory]
+max_heap_mb = 1024
+texture_atlas = 512          # 16x packs only
+compress_textures = "etc2"
+
+[thermal]
+throttle_fps_on_heat = true  # drop to 30 fps if phone gets hot
